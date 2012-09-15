@@ -10,7 +10,7 @@
 *	-db
 *	-session
 */
-$config['models'] = array('db');
+$config['models'] = array();
 
 //Helpers
 //e.g. array('default','helper1');

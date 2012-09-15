@@ -5,7 +5,7 @@
 *
 */
 
-$config['base_url'] = 'http://localhost/phpmvc/';
+$config['base_url'] = 'http://localhost/mvc/';
 
 //default controller
 //route options

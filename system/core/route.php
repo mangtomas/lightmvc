@@ -7,10 +7,12 @@ class Route{
 	
 	public function __construct(){
 		global $config;
-		$curl = 'http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
-		$base_url = $config['base_url'];// 'http://localhost/mvc/';
+		$curl = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+		
+		$base_url = (preg_match('/[0-9]/i',$curl)) ? $curl : $config['base_url'];
+		//$base_url = $config['base_url'];// 'http://localhost/mvc/';
 		$url = str_replace($base_url,'',$curl);
-
+		
 		$x = explode('/',$url);
 
 		if($x[0] ==''){

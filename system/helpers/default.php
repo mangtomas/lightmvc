@@ -1,7 +1,10 @@
 <?php
 function base_url(){
 	global $config;
-	return $config['base_url'];
+	$curl = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+		
+		$base_url = (preg_match('/[0-9]/i',$curl)) ? $curl : $config['base_url'];
+		return $base_url;
 }
 
 function redirect($url){
