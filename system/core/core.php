@@ -34,15 +34,22 @@ $params = $route->getArgs();
 $file = ROOT.APPS.'controllers'.DS.$controller.EXT;
 if(file_exists($file)){
 	require_once $file;
-}
-
-//require the controller
-$run = new $controller();
-
-//if arguments need method
-if(isset($params)){
-	$run->{$method}($params);
+	$run = new $controller();
+	if(isset($params)){
+		if(method_exists($run,$method)){
+			$run->{$method}($params);
+			}else{
+			require_once('error/error_.php');
+		}
+	}else{
+		//if not run method
+		if(method_exists($run,$method)){
+			$run->{$method}();
+		}else{
+			require_once('error/error_.php');
+		}
+	}
 }else{
-	//if not run method
-	$run->{$method}();
+	require_once('error/error_.php');
 }
+

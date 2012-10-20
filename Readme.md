@@ -89,3 +89,7 @@ Views {dir: application/views/sample.php}
 ```php
 $this->load->render('sample');
 ```
+
+#Author
+Red
+email : mangtomas.gode@gmail.com
