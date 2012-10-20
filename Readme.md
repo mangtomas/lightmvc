@@ -57,7 +57,7 @@ $config['database_name'] = 'testdb';
 ```
 
 Controller {default: main.php} {dir: application/controllers/main.php}
-```
+```php
 class main extends MVC_controller{
 	
 	public function __construct(){
@@ -72,7 +72,7 @@ class main extends MVC_controller{
 ```
 
 Models {e.g. : crud.php} {dir: application/models/crud.php}
-```
+```php
 class crud extends MVC_model{
 	public function __construct(){
 		parent::__construct();
@@ -86,6 +86,6 @@ class crud extends MVC_model{
 ```
 
 Views {dir: application/views/sample.php}
-```
+```php
 $this->load->render('sample');
 ```
