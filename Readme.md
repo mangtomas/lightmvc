@@ -1,6 +1,6 @@
-#Small MVC PHP Framework
+#LightMVC PHP Framework
 
-![SmallMVC](http://cdn4.f-cdn.com/ppic/1860520/logo/2238770/profile_logo_2238770.jpg)
+![LightMVC](http://cdn4.f-cdn.com/ppic/1860520/logo/2238770/profile_logo_2238770.jpg)
 
  This is a small MVC PHP framework used just to add some organization to small projects it handles
  URI segments addresses and implements the MVC object oriented pattern, capable of manage
@@ -91,5 +91,5 @@ $this->load->render('sample');
 ```
 
 #Author
-Red
-email : mangtomas.gode@gmail.com
+De Juan, Red <br />
+email : mangtomas.code@gmail.com
