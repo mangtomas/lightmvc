@@ -1,0 +1,46 @@
+body{margin:0;font: 13px/14px sans-serif;}
+table{background:#fff}
+#guest-menu{background:url('../images/menubg.png');padding:9px 0 0 9px;height:30px;margin:0}
+#guest-menu li{display:inline-block;margin-right:5px;padding-top:4px}
+#guest-menu li a{text-decoration:none;color:#6a6a6a;padding:3px 5px;border-radius:5px;background:#fff}
+#guest-menu li a:hover{background:#d1d1d1;color:#252a2f;}
+
+a.usettings{margin-left:3px !important;}
+
+/*user navigation*/
+#content{border:1px solid rgba(0, 0, 0, 0.2);width:680px;margin-top:20px;padding:15px}
+#nav{width:200px;padding:5px;border-radius:5px;box-shadow: 0 0 3px gray;margin-top:20px}
+#nav ul#parent li{font-weight:bold;margin:3px;list-style:none;}
+#nav ul#parent li ul.parent-child li{font-weight:normal;list-style:square;}
+#leave{padding:15px;background:gray;margin: 0 10px 10px 0}
+#reason{width:400px;height:50px}
+/*#content h1{font:bold 22px/1em "Arial";border-bottom:1px dotted gray}*/
+#content h2#inf{line-height:15px;font:bold 18px/1em "Arial"}
+#content h2#inf span{font:italic 14px/1em "Segan"}
+#content textarea{margin-bottom:20px}
+
+/*user settings*/
+#c-password input[type='password']{width:250px;border:1px solid gray;height:30px;font:14px/1em "Arial"}
+#c-password ul {width:380px;padding:0}
+#c-password ul li{padding:5px;list-style:none;}
+#c-password ul li span{float:left}
+.cstm-t tr td{text-align:center;padding:5px 5px;border-bottom:1px solid rgb(220,220,220);}
+.cstm-t tr td:last-child{background:green;color:#fff}
+.cstm-t tr:hover{background:#ececec}
+.cstm-t tbody{border:1px solid red}
+.cstm-t th{background:url('../images/menu_bg.jpg') rgb(158,176,181);color:#fff;padding:10px 8px}
+.cstm-t.aleft tr td,.cstm-t.aleft tr th:first-child{text-align:left}
+.noti{padding:9px;border:1px solid green;border-radius:5px;background: rgb(235,255,194);}
+#user-compensation #u-main{ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);padding:15px;width:940px}
+#header{padding:9px 0 9px 0}
+h1#cname{color:#444}
+.inpt{height:30px;width:100%}
+.reqt{line-height:15px}
+h1#ttle{font-size:36px}
+.inp-small{width:205px;height:30px}
+
+.user-info-form{border:1px solid rgba(0, 0, 0, 0.2);padding:16px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)}
+
+.success{padding:10px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);border:1px solid green;color:green;background:#e5ffd8}
+
+
